@@ -1,13 +1,37 @@
 ---
 title: Dahm's Garden
-description: Private notes selected and published from Obsidian.
+description: Notes and posts published directly from Obsidian.
 ---
+아카이빙 용도 입니다.
 
-개인 볼트에서 쓴 메모와 글 중 공개할 만한 것만 이곳으로 옮겨 발행합니다.
+## Start Here
 
-## Workflow
+- [[Blog/Publish/posts/index|Posts]]
+- [[Blog/Publish/notes/index|Notes]]
+- [[Blog/Publish/books/index|Books]]
+- [[daily/2026-04/2026-04-13|Daily]]
 
-- 글은 먼저 Obsidian vault에서 씁니다.
-- 공개할 글만 이 repo의 `content/posts`로 복사합니다.
-- 이미지는 `public/images`에 따로 둡니다.
-- 로컬에서 확인한 뒤 GitHub에 푸시합니다.
+## Posts
+
+긴 글이나 문제 해결 과정을 정리한 문서입니다.
+
+- [[posts/왜 RSC에서는 dot notation이 안 될까]]
+
+## Notes
+
+짧은 개념 정리, 용어 설명, 메커니즘 메모입니다.
+
+- [[next-flight-loader]]
+
+## Books
+
+책별 요약과 챕터 메모를 묶어 관리합니다.
+
+- [[Blog/Publish/books/tidy-first/index|Tidy First?]]
+- [[Blog/Publish/books/head-first-design-patterns/index|Head First Design Patterns]]
+
+
+## Daily
+
+그날 배운 것과 글감, 실험 기록을 적습니다.
+
