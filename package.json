@@ -11,20 +11,21 @@
     "type": "git",
     "url": "https://github.com/j2h30728/garden.git"
   },
+  "packageManager": "pnpm@10.29.2",
   "scripts": {
     "quartz": "./quartz/bootstrap-cli.mjs",
-    "build": "npx quartz build",
-    "dev": "npx quartz build --serve",
-    "serve": "npx quartz build --serve",
-    "docs": "npx quartz build --serve -d docs",
-    "check": "tsc --noEmit && npx prettier . --check",
-    "format": "npx prettier . --write",
+    "build": "./quartz/bootstrap-cli.mjs build",
+    "dev": "./quartz/bootstrap-cli.mjs build --serve",
+    "serve": "./quartz/bootstrap-cli.mjs build --serve",
+    "docs": "./quartz/bootstrap-cli.mjs build --serve -d docs",
+    "check": "tsc --noEmit && prettier . --check",
+    "format": "prettier . --write",
     "test": "tsx --test",
     "profile": "0x -D prof ./quartz/bootstrap-cli.mjs build --concurrency=1"
   },
   "engines": {
-    "npm": ">=10.9.2",
-    "node": ">=22"
+    "node": ">=22",
+    "pnpm": ">=10.29.2"
   },
   "keywords": [
     "site generator",

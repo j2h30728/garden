@@ -20,19 +20,19 @@ Use this if you want easier custom domain handling.
 Build settings:
 
 - Framework preset: `None`
-- Build command: `npx quartz build`
+- Build command: `pnpm build`
 - Build output directory: `public`
 
 If Cloudflare Pages uses shallow clone timestamps, change the build command to:
 
-`git fetch --unshallow && npx quartz build`
+`git fetch --unshallow && pnpm build`
 
 ## Local commands
 
 ```bash
 cd /Users/jihyeon/Desktop/blog-obsidian
-npm run dev
-npm run build
+pnpm dev
+pnpm build
 ```
 
 ## Publish from the vault

@@ -11,8 +11,8 @@ A free Obsidian-to-Quartz publishing setup.
 
 ```bash
 cd /Users/jihyeon/Desktop/blog-obsidian
-npm run dev
-npm run build
+pnpm dev
+pnpm build
 ```
 
 ## Publish flow

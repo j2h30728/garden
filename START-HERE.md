@@ -16,7 +16,7 @@ Quartz repo path:
 
 ```bash
 cd /Users/jihyeon/Desktop/blog-obsidian
-npm run dev
+pnpm dev
 ```
 
 Then open <http://localhost:8080>.
