@@ -1,17 +1,26 @@
-# Quartz v4
+# Dahm's Garden
 
-> “[One] who works with the door open gets all kinds of interruptions, but [they] also occasionally gets clues as to what the world is and what might be important.” — Richard Hamming
+A free Obsidian-to-Quartz publishing setup.
 
-Quartz is a set of tools that helps you publish your [digital garden](https://jzhao.xyz/posts/networked-thought) and notes as a website for free.
+## Paths
 
-🔗 Read the documentation and get started: https://quartz.jzhao.xyz/
+- Private vault: `/Users/jihyeon/Library/CloudStorage/GoogleDrive-rachel2148072@gmail.com/내 드라이브/ObsidianVault`
+- Publish repo: `/Users/jihyeon/Desktop/blog-obsidian`
 
-[Join the Discord Community](https://discord.gg/cRFFHYye7t)
+## Commands
 
-## Sponsors
+```bash
+cd /Users/jihyeon/Desktop/blog-obsidian
+npm run dev
+npm run build
+```
 
-<p align="center">
-  <a href="https://github.com/sponsors/jackyzha0">
-    <img src="https://cdn.jsdelivr.net/gh/jackyzha0/jackyzha0/sponsorkit/sponsors.svg" />
-  </a>
-</p>
+## Publish flow
+
+1. Write in the private Obsidian vault.
+2. Move a public-ready note into `content/posts`.
+3. Copy images into `public/images`.
+4. Preview locally.
+5. Push to GitHub Pages or connect the repo to Cloudflare Pages.
+
+See `START-HERE.md` and `DEPLOY.md` for the working setup.
