@@ -10,7 +10,23 @@ const NotFound: QuartzComponent = ({ cfg }: QuartzComponentProps) => {
     <article class="popover-hint">
       <h1>404</h1>
       <p>{i18n(cfg.locale).pages.error.notFound}</p>
-      <a href={baseDir}>{i18n(cfg.locale).pages.error.home}</a>
+      <a id="not-found-home-link" href={baseDir}>
+        {i18n(cfg.locale).pages.error.home}
+      </a>
+      <script
+        dangerouslySetInnerHTML={{
+          __html: `
+            (() => {
+              const link = document.getElementById("not-found-home-link");
+              if (!link) return;
+              const isLocal =
+                window.location.hostname === "localhost" ||
+                window.location.hostname === "127.0.0.1";
+              if (isLocal) link.setAttribute("href", "/");
+            })();
+          `,
+        }}
+      />
     </article>
   )
 }
