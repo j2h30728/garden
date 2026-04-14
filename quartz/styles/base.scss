@@ -21,6 +21,7 @@ body {
   background-color: var(--light);
   font-family: var(--bodyFont);
   color: var(--darkgray);
+  line-height: 1.72;
 }
 
 .text-highlight {
@@ -514,7 +515,7 @@ code {
 tbody,
 li,
 p {
-  line-height: 1.6rem;
+  line-height: 1.78rem;
 }
 
 .table-container {
