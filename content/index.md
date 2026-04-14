@@ -6,9 +6,9 @@ description: Notes and posts published directly from Obsidian.
 
 ## Start Here
 
-- [[Blog/Publish/posts/index|Posts]]
-- [[Blog/Publish/notes/index|Notes]]
-- [[Blog/Publish/books/index|Books]]
+- [[posts/index|Posts]]
+- [[notes/index|Notes]]
+- [[books/index|Books]]
 - [[daily/2026-04/2026-04-13|Daily]]
 
 ## Posts
@@ -27,11 +27,10 @@ description: Notes and posts published directly from Obsidian.
 
 책별 요약과 챕터 메모를 묶어 관리합니다.
 
-- [[Blog/Publish/books/tidy-first/index|Tidy First?]]
-- [[Blog/Publish/books/head-first-design-patterns/index|Head First Design Patterns]]
+- [[books/tidy-first/index|Tidy First?]]
+- [[books/head-first-design-patterns/index|Head First Design Patterns]]
 
 
 ## Daily
 
 그날 배운 것과 글감, 실험 기록을 적습니다.
-
